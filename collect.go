@@ -3,7 +3,7 @@ package main
 import (
 	"os/exec"
 
-	"github.com/prometheus/common/log"
+	"github.com/prometheus/common/promlog"
 )
 
 func execCommand(execpath, address string) (string, bool) {
